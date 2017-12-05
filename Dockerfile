@@ -1,9 +1,9 @@
 FROM alpine:3.6
 LABEL maintainer "ymajik <ymajik@gmail.com"
 
-ENV GRAFANA_VERSION=4.6.2
-ENV GLIBC_VERSION=2.26-r0
-ENV GOSU_VERSION=1.10
+ENV GRAFANA_VERSION=4.6.2 \
+    GLIBC_VERSION=2.26-r0 \
+    GOSU_VERSION=1.10
 
 RUN set -ex &&\
   addgroup -S grafana &&\
