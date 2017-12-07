@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 LABEL maintainer "ymajik <ymajik@gmail.com"
 
 ENV GRAFANA_VERSION=4.6.2 \
